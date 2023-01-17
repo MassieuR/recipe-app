@@ -5,8 +5,7 @@ export const generalContext = createContext();
 const ContextProvider = (props) => {
   const [cartList, setCartList] = useState([{name: 'Hamburguer', type: 'fast-food', ingredients: { meat: 8, tomato: 1}, q: 1}]);
   const [cartItemsCount, setCartItemsCount] = useState(0);
-  const [recipeList, setRecipeList] = useState([{name: 'Hamburguer', type: 'fast-food', ingredients: { meat: 8}}
-  ]);
+  const [recipeList, setRecipeList] = useState([{name: 'Hamburguer', type: 'fast-food', ingredients: { meat: 8}}]);
   const [components, setComponents] = useState(["Sample"]);
   const [recipeQ, setRecipeQ] = useState([...cartList])
 
@@ -80,7 +79,6 @@ const ContextProvider = (props) => {
 
   const newIngridientHandler = (e) => {
     e.preventDefault();
-    // setComponents([...components, ""]);
   };
 
   const BOMHandler = (e) => {
