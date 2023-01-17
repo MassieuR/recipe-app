@@ -1,0 +1,9 @@
+#recipeCard {
+    width: 30rem;
+    margin: 2rem auto;
+    border: 1px solid black;
+}
+
+.addCartBtn {
+    padding: 0.5rem;
+}

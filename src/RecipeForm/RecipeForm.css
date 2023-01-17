@@ -1,0 +1,33 @@
+#RecipeForm {
+    margin: 0 auto;
+    width: 30rem;
+    border: 1px solid black;
+}
+
+#mealName, #mealType {
+    width: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+#mealIngredients {
+    display: inline;
+}
+
+#mealIngredientsQ {
+    display: inline;
+}
+
+#mealIngredientsQ-label {
+    display: inline;
+    margin-left: 10rem;
+}
+#mealIngredients-label {
+    display: inline;
+}
+
+
+#RecipeForm button {
+    width: 30%;
+
+}
